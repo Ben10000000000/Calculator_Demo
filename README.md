@@ -38,11 +38,6 @@ I have created a Calculator using FastAPI and Python.
 
 8)  then use this command in shell to see  FastAPI ' fastapi dev main.py' 
 
-![1](1Fastapi.png)
-![2](2Fastapi.png)
-![3](3Firstapi.png)
-![4](4Fastapi.png)
-
 ### Final Output
 
 ![5](<Final SS of Calculator.png>)
