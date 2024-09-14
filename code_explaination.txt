@@ -1,0 +1,34 @@
+### main.py code code explaination, line by line.
+
+1) " from fastapi import FastAPI "
+Using from fastapi import FastAPI is the first step in building a web application with FastAPI. 
+This framework allows for rapid development of APIs with automatic data validation, interactive documentation, 
+and high performance. With just a few lines of code, you can set up a fully functional web service that adheres to modern web standards.
+
+2) " app = FastAPI() "
+The line app = FastAPI() is crucial in a FastAPI application as it creates an instance of the FastAPI class, which serves as the main entry point for your web application.
+ This instance is used to define routes, handle requests, and manage application-level settings.
+
+ 3)" @app.get("/") "
+ The @app.get("/") decorator is a fundamental part of defining routes in a FastAPI application. It associates the root URL with a specific function that handles GET requests, 
+ allowing you to create dynamic web applications quickly. FastAPI’s automatic JSON response handling and interactive documentation make it a powerful tool for building APIs.
+
+4) " def home():
+ return {"message": "home"} "
+ 
+The function def home(): return {"message": "home"} is a simple Python function designed to return a JSON response when called. In the context of a FastAPI application, 
+you would typically use this function in conjunction with a route decorator to define an endpoint that clients can access. Below, I will show you how to integrate 
+this function into a FastAPI application. 
+
+5) return{"message": "Welcome to Calculator"}
+
+create a simple FastAPI application that returns a welcome message. Below, I'll provide a complete example of how to set up a FastAPI application with a welcome message and an addition endpoint.
+
+6) The add function is a FastAPI endpoint that accepts two path parameters: value1 and value2. These parameters are defined as part of the route definition using curly braces {}.
+Inside the add function, the value_1 and value_2 parameters are annotated with type hints int. This means that FastAPI will automatically convert the input values to integers
+ before passing them to the function.
+Now, let's focus on the line return value_1 + value_2:
+value_1: This refers to the first parameter passed to the add function. It represents the first value in the addition operation.
+value_2: This refers to the second parameter passed to the add function. It represents the second value in the addition operation.
++: This is the addition operator, which adds the two values together.
+return: This keyword is used to exit the function and return a value. In this case, it returns the result of adding value_1 and value_2.
