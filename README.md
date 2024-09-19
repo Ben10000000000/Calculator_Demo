@@ -3,7 +3,7 @@ I have created a Calculator using FastAPI and Python.
 ### First fast api Application --- Calculator
 
 1) First Create a git ignore file 
- . create a direcotry using "mkdir" then create a git ignore file 
+ . create a direcotry using '''mkdir''' then create a git ignore file 
  . open a file using "Vi file_name" and past git ignore code in that file 
     you can refer this link - https://www.toptal.com/developers/gitignore/api/python,visualstudiocode,pycharm+all
  . create  a direcotry name as calculator & create new environment using command "python -m venv .venv " 
